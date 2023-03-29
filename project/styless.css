@@ -70,3 +70,64 @@ footer{
     color: black;
     border-radius: 3px;
 }
+
+.video{
+    padding: 3px;
+    background-color: aqua;
+}
+
+.descripcion-video{
+    display: flex;
+    width: 100%;
+
+    flex-flow: row;
+}
+
+.canal-imagen-video{
+    width: 28%;
+    border: solid black 1px;
+}
+
+.info-video{
+    width: 80%;
+    border: solid 1px black;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 35% 30% 35%;
+    grid-template-areas: 
+    "topp topp"
+    "mid mid"
+    "bleft bright";
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.titulo-video{
+    border: solid black 1px;
+    grid-area: topp;
+
+}
+
+.nombre-canal{
+    border: solid black 1px;
+    grid-area: mid;
+}
+
+.views-video{
+    border: solid black 1px;
+    grid-area: bleft;
+}
+
+.date-video{
+    border: solid black 1px;
+    grid-area: bright;
+}
