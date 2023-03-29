@@ -1,0 +1,57 @@
+body{
+    background-color: red;
+    height: 100vh;
+}
+
+.container{
+    border: solid 1px rebeccapurple;
+    /*padding: 5px;*/
+    background-color: pink;
+    /*border-radius: 5px;*/
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: 10% auto 10%;
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar main main"
+    "sidebar footer footer";
+}
+
+header{
+    grid-area: header;
+    box-sizing: border-box;
+    border: solid 3px blue;
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}
+
+main{
+    grid-area: main;
+    box-sizing: border-box;
+    border: solid 3px blue;
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}
+
+footer{
+    grid-area: footer;
+    box-sizing: border-box;
+    border: solid 3px blue;
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    box-sizing: border-box;
+    border: solid 3px blue;
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}
