@@ -107,11 +107,13 @@ img{
 }
 
 #logo{
-    width: 100%;
+    width: 90%;
     border-radius: 30px;
 }
 
 .titulo-video{
+    padding: 0 2px 8px 2px;
+    font-size: smaller;
     border: solid black 1px;
     grid-area: topp;
 
