@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background-color: #0f0f0f;
     height: 100vh;
 }
 
@@ -17,7 +17,7 @@ body{
     grid-template-areas: 
     "sidebar header header"
     "sidebar main main"
-    "sidebar footer footer";
+    "footer main main";
 }
 
 header{
@@ -36,6 +36,13 @@ main{
     background-color: yellow;
     color: black;
     border-radius: 3px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "1 2 3 4"
+    "5 6 7 8";
 }
 
 footer{
@@ -49,6 +56,14 @@ footer{
 
 .sidebar{
     grid-area: sidebar;
+    box-sizing: border-box;
+    border: solid 3px blue;
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}
+
+.contenido{
     box-sizing: border-box;
     border: solid 3px blue;
     background-color: yellow;
