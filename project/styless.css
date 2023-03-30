@@ -43,6 +43,34 @@ header{
     background-color: yellow;
     color: black;
     border-radius: 3px;
+    display: flex;
+}
+
+.ctopl{
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: solid 3px green;
+    background-color: orange;
+    color: black;
+    border-radius: 3px;
+}
+
+.ctopc{
+    flex-grow: 2;
+    box-sizing: border-box;
+    border: solid 3px green;
+    background-color: orange;
+    color: black;
+    border-radius: 3px;
+}
+
+.ctopr{
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: solid 3px green;
+    background-color: orange;
+    color: black;
+    border-radius: 3px;
 }
 
 .cabecera-bot{
@@ -54,6 +82,7 @@ header{
     border-radius: 3px;
 
     display: inline-block;
+    white-space: nowrap;
 }
 
 button{
