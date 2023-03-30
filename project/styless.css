@@ -27,6 +27,38 @@ header{
     background-color: yellow;
     color: black;
     border-radius: 3px;
+
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "htop htop htop"
+    "hbot hbot hbot";
+}
+
+.cabecera-top{
+    grid-area: htop;
+    box-sizing: border-box;
+    border: solid 3px blue;
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}
+
+.cabecera-bot{
+    grid-area: hbot;
+    box-sizing: border-box;
+    border: solid 3px blue;
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+
+    display: inline-block;
+}
+
+button{
+    border-radius: 7px;
+    margin: 5px;
 }
 
 main{
