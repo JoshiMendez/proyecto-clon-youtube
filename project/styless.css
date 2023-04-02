@@ -1,22 +1,26 @@
 *{
-    
-}
-body{
     background-color: #0f0f0f;
+    font-family: Roboto, Arial, sans-serif;
+    color: #f1f1f1; 
+    padding: 0;
+    margin: 0;  
+}
+
+body{
     height: 100vh;
 }
 
 .container{
     border: solid 1px rebeccapurple;
     /*padding: 5px;*/
-    background-color: pink;
+    background-color: transparent;
     /*border-radius: 5px;*/
     height: 100%;
     width: 100%;
 
     display: grid;
-    grid-template-columns: 20% 1fr 1fr;
-    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-rows: 15% auto 10%;
     grid-template-areas: 
     "header header header"
     "sidebar main main"
@@ -27,24 +31,23 @@ header{
     grid-area: header;
     box-sizing: border-box;
     border: solid 3px blue;
-    background-color: yellow;
+    background-color: transparent;
     color: black;
     border-radius: 3px;
 
     display: grid;
-    grid-template-columns: 20% 50% 30%;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 15% 55% 30%;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "htop htop htop"
-    "hbot hbot hbot";
+    "barside ltop ltop";
 }
 
 .cabecera-top{
     grid-area: htop;
     box-sizing: border-box;
-    border: solid 3px rgb(230, 0, 255);
-    background-color: rgb(64, 255, 0);
-    color: black;
+    border: solid 3px rgb(102, 21, 111);
+    background-color: transparent;
     border-radius: 3px;
     display: flex;
     width: 100%;
@@ -59,7 +62,7 @@ header{
     flex-grow: 1;
     box-sizing: border-box;
     border: solid 3px blueviolet;
-    background-color: orange;
+    background-color: transparent;
     color: black;
     border-radius: 3px;
     width: 169px;
@@ -92,12 +95,11 @@ header{
 .ctopc{
     flex-grow: 2;
     box-sizing: border-box;
-    border: solid 3px green;
-    background-color: orange;
-    color: black;
-    border-radius: 3px;
+    border: solid 1px green;
+    background-color: transparent;
+    border-radius:  3px;
     width: 464.4px;
-    height: 40px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -109,30 +111,52 @@ header{
     padding: 0 4px;
     flex: 1;
     flex-basis: 1e-9px;
-    width: 372px;
+    width: 636px;
     height: 40px;
     display: flex;
+    border-radius: 25px;
+    border: 1 px solid;
+    box-sizing: border-box;
+    background-color: transparent;
 }
 
 .searchbar{
-    box-sizing: border-box;
+    /*box-sizing: border-box;
     padding: 1px 0;
     margin: 0;
     background-color: transparent;
-    border: solid 1px red;
-    border-radius: 5px;
-    box-shadow: none;
+    border: solid 1px red;*/
+    position: relative;
+    align-items: center;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid ;
+    border-right: none;
+    /*box-shadow: inset 0 1px 2px;*/
+    padding: 0px 4px 0px 16px;
+    margin-left: 32px;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+    flex-direction: row;
+    /*box-shadow: none;
     font-size: 16px;
-    max-width: 100%;
+    max-width: 519.2px;
     width: 100%;
+    height: 30px;
     outline: none;
-    text-align: inherit;
+    text-align: inherit;*/
 
 }
 
 .lupaiconbox{
-    width: 50.400px;
-    height: 36.400px;
+    border: 1px solid blue;
+    border-radius: 0 40px 40px 0;
+    width: 64px;
+    height: 40px;
+    margin: 0;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 1px 6px;
 }
 
 .botonlupa img{
@@ -212,27 +236,38 @@ header{
 }
 
 .cabecera-bot{
-    grid-area: hbot;
+    grid-area: ltop;
     box-sizing: border-box;
-    border: solid 3px blue;
-    background-color: yellow;
-    color: black;
+    /*border: solid 3px blue;*/
+    background-color: transparent;
     border-radius: 3px;
+    height: 56px;
+    width: 100%;
 
     display: inline-block;
     white-space: nowrap;
 }
 
-button{
-    border-radius: 7px;
-    margin: 5px;
+.cabecera-bot button{
+    border-radius: 16px;
+    margin: 15px;
+    height: 32px;
+    min-width: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    display: inline-flex;
+    padding: 0 12px;
+    margin: 12px 12px 12px 0; 
+    background-color: #FFFFFF1A;
 }
 
 main{
     grid-area: main;
     box-sizing: border-box;
     border: solid 3px blue;
-    background-color: yellow;
+    background-color: transparent;
     color: black;
     border-radius: 3px;
 
@@ -248,7 +283,7 @@ footer{
     grid-area: footer;
     box-sizing: border-box;
     border: solid 3px blue;
-    background-color: yellow;
+    background-color: red;
     color: black;
     border-radius: 3px;
 }
@@ -257,7 +292,7 @@ footer{
     grid-area: sidebar;
     box-sizing: border-box;
     border: solid 3px blue;
-    background-color: yellow;
+    background-color: green;
     color: black;
     border-radius: 3px;
 }
