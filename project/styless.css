@@ -307,7 +307,7 @@ footer{
 
 .video{
     padding: 3px;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 .descripcion-video{
@@ -318,10 +318,17 @@ footer{
 }
 
 .canal-imagen-video{
-    width: 28%;
+    height: 36px;
+    margin-top: 12px;
+    margin-right: 12px;
     border: solid black 1px;
 }
-
+.canal-imagen-video img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 .info-video{
     width: 80%;
     border: solid 1px black;
@@ -340,10 +347,10 @@ img{
     border-radius: 20px;
 }
 
-#logo{
-    width: 90%;
+/*#logo{
+    width: 100%;
     border-radius: 30px;
-}
+}*/
 
 .titulo-video{
     padding: 0 2px 8px 2px;
