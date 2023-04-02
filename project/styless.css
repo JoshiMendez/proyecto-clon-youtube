@@ -475,7 +475,8 @@ section{
     margin: 5px;
     display: block;
     /*border: solid 2px red;*/
-    /*position: fixed;*/
+    /*position: fixed;
+    overflow-y: scroll;*/
 }
 
 #iconos-section{
@@ -530,10 +531,16 @@ ul h3{
 .seccion-explore{
     border-top: #FFFFFF1A 2px solid;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.seccion-explore h3{
+.seccion-explore h2{
     margin-left: 15px;
     font-weight: normal;
     font-size: 16px;
+}
+
+.seccion-settings{
+    border-top: #FFFFFF1A 2px solid;
+    padding-top: 15px;
 }
