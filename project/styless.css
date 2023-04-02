@@ -1,9 +1,13 @@
 *{
     background-color: #0f0f0f;
-    font-family: Roboto, Arial, sans-serif;
     color: #f1f1f1; 
     padding: 0;
-    margin: 0;  
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;  
+}
+
+a{
+    text-decoration: none;
 }
 
 body{
@@ -115,7 +119,7 @@ header{
     height: 40px;
     display: flex;
     border-radius: 25px;
-    border: 1 px solid;
+    border: 1px solid;
     box-sizing: border-box;
     background-color: transparent;
 }
@@ -266,9 +270,8 @@ header{
 main{
     grid-area: main;
     box-sizing: border-box;
-    border: solid 3px blue;
-    background-color: transparent;
-    color: black;
+    border: solid 3px grey;
+    background-color: #FFFFFF1A;
     border-radius: 3px;
 
     display: grid;
@@ -299,10 +302,10 @@ footer{
 
 .contenido{
     box-sizing: border-box;
-    border: solid 3px blue;
-    background-color: yellow;
-    color: black;
+    border: solid 3px transparent;
     border-radius: 3px;
+    align-items: stretch;
+    max-height: 100%;
 }
 
 .video{
@@ -313,15 +316,14 @@ footer{
 .descripcion-video{
     display: flex;
     width: 100%;
-
     flex-flow: row;
 }
 
 .canal-imagen-video{
     height: 36px;
-    margin-top: 12px;
+    margin-top: 0px;
     margin-right: 12px;
-    border: solid black 1px;
+    /*border: solid red 1px;*/
 }
 .canal-imagen-video img{
     width: 36px;
@@ -330,16 +332,40 @@ footer{
     overflow: hidden;
 }
 .info-video{
-    width: 80%;
-    border: solid 1px black;
+    width: 100%;
+    height: 100px;
+    /*border: solid 1px red;*/
+    
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto 5% 1fr;
     grid-template-rows: 35% 30% 35%;
     grid-template-areas: 
-    "topp topp"
-    "mid mid"
-    "bleft bright";
+    "topp topp topp"
+    "mid mid mid"
+    "bleft bcenter bright";
+}
+
+.titulo-video a{
+    font-size: 16px;
+    font-weight: normal;
+    overflow: hidden;
+    max-height: 4.4rem;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    padding-right: 24px;
+    -webkit-line-clamp: 2;  
+}
+
+.nombre-canal a {
+    font-size: 14px;
+    /*line-height: 2rem;*/
+}
+
+.info-video h4{
+    font-size: 14px;
+    font-weight: normal;
 }
 
 img{
@@ -357,20 +383,29 @@ img{
     font-size: smaller;
     border: solid black 1px;
     grid-area: topp;
+    height: 0px;
 
 }
 
 .nombre-canal{
-    border: solid black 1px;
+    /*border: solid black 1px;*/
     grid-area: mid;
+    padding: 0 2px 8px 2px;
 }
 
 .views-video{
-    border: solid black 1px;
+    /*border: solid black 1px;*/
     grid-area: bleft;
+    padding: 0 2px 8px 2px;
+}
+
+.simbolo{
+    grid-area: bcenter;
+    padding: 0 2px 8px 4px;
 }
 
 .date-video{
-    border: solid black 1px;
+    /*border: solid black 1px;*/
     grid-area: bright;
+    padding: 0 2px 8px 2px;
 }
