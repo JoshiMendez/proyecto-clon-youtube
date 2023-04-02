@@ -516,8 +516,24 @@ ul h3{
     font-size: 14px;
     font-weight: normal;
 }
-
-#division{
+.seccion-uno{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+.seccion-dos{
     border-top: #FFFFFF1A 2px solid;
-    padding-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.seccion-explore{
+    border-top: #FFFFFF1A 2px solid;
+    padding-top: 15px;
+}
+
+.seccion-explore h3{
+    margin-left: 15px;
+    font-weight: normal;
+    font-size: 16px;
 }
