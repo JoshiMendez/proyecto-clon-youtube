@@ -475,8 +475,8 @@ section{
     margin: 5px;
     display: block;
     /*border: solid 2px red;*/
-    /*position: fixed;*/
-    overflow-y: visible;
+    position: fixed;
+    overflow-y: scroll;
 }
 
 #iconos-section{
