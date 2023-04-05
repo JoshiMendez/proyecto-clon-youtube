@@ -28,7 +28,7 @@ body{
     grid-template-areas: 
     "header header header"
     "sidebar main main"
-    "footer main main";
+    "sidebar main main";
 }
 
 header{
@@ -475,7 +475,7 @@ section{
     margin: 5px;
     display: block;
     /*border: solid 2px red;*/
-    position: fixed;
+    /*position: fixed;*/
     overflow-y: visible;
 }
 
@@ -542,5 +542,28 @@ ul h3{
 
 .seccion-settings{
     border-top: #FFFFFF1A 2px solid;
+    border-bottom: #FFFFFF1A 2px solid;
+    padding-bottom: 15px;
     padding-top: 15px;
+
+}
+
+.footer{
+    margin-top: 15px;
+    width: 175px;
+    margin-bottom: 15px;
+    margin-left: 17px;
+}
+
+.footer a{
+    color: #AAAAAA;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.footer h5{
+    color: #717171;
+    font-size: 12px;
+    font-weight: normal;
 }
