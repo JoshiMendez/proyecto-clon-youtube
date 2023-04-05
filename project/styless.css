@@ -34,10 +34,11 @@ body{
 header{
     grid-area: header;
     box-sizing: border-box;
-    /*border: solid 3px blue;*/
-    background-color: transparent;
+    /*border: solid 3px blue;
+    background-color: red;*/
     color: black;
     border-radius: 3px;
+    position: fixed;
 
     display: grid;
     grid-template-columns: 10% 60% 30%;
@@ -51,7 +52,7 @@ header{
     grid-area: htop;
     box-sizing: border-box;
     /*border: solid 3px rgb(102, 21, 111);*/
-    background-color: transparent;
+    background-color: #0f0f0f;
     border-radius: 3px;
     display: flex;
     width: 100%;
@@ -60,6 +61,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .ctopl{
@@ -176,10 +178,6 @@ header{
     height: 24px;
 }
 
-.botonlupa a{
-
-}
-
 .microiconbox{
     width: 40px;
     height: 40px;
@@ -265,12 +263,14 @@ header{
     grid-area: ltop;
     box-sizing: border-box;
     /*border: solid 3px blue;*/
-    background-color: transparent;
+    background-color: #0f0f0f;
     border-radius: 3px;
     height: 56px;
     width: auto;
     padding-bottom: 0;
+    /*margin-top: 65px;*/
     margin-left: 5px;
+    /*position: fixed;*/
     overflow: hidden;
 
     display: flex;
@@ -475,8 +475,8 @@ section{
     margin: 5px;
     display: block;
     /*border: solid 2px red;*/
-    /*position: fixed;
-    overflow-y: scroll;*/
+    position: fixed;
+    overflow-y: visible;
 }
 
 #iconos-section{
