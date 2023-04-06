@@ -1,0 +1,27 @@
+> Lo que mas me gusto 
+    Al ser la primera vez que trabajo con html, podria decir que me gusto un poco de todo, desde lo ¨basico¨, como git y obviamente todo lo que 
+    tiene que ver como la creacion de una pagina web, me gusta el hecho de dar ¨instrucciones¨ y que estas se lleven a cabo, que de alguna
+    manera, se ingresen datos y estos sean representados de alguna manera, no me considero alguien con mucha creatividad, enfocando la creatividad
+    a un area especifica, pero si que me gusta mucho esto de crear paginas web, o al menos de momento, creo que puedo decir, me gusta crear 
+    clones de paginas web jajaja que, se quiera o no, sirven para coger experiencia, agilidad tal vez, vaya, estamos aprendiendo a caminar, 
+    o tal vez gatera, pero en algun momento, se estara corriendo como los grandes.
+
+> Lo que menos me gusto
+    En lo personal, tiene que ver con una experiencia propia y es basicamente cuando el sensei Dani nos dio un determinado tiempo para hacer 
+    un clon de Google, nada en contra del sensei, tiene que ver conmigo mismo, y es que no me gusto que a pesar de haber entendido todos y cada 
+    uno de los temas visto hasta ese dia, y de haber pasado tiempo estudiando por mi propia cuenta para asi de alguna manera estar seguro de 
+    no perdeme en clase mientras se explicaban ciertos temas, si que es verdad que esa noche, por alguna razon, en pocas palabras me bloquee, y
+    solo me estaba centrando en lo visto en clase en ese dia para realizar el clom, cuando es verdad que en previas clases ya habiamos visto muchas
+    otras cosas, pero en ese momento, no se me vinieron a la cabeza, entonces, lo que a mi menos me gusto, fue haber fallado esa noche y no haber
+    podido presentar un avance o mi avance realizado esa noche. porque es verdad que poco fue lo que hice puesto que no supe como empezar la verdad.
+
+> Lo que se me facilito mas
+    Podra parecer mentira, pero aqui me atrevo a decir que lo que mas se me facilito fue aprender grid, no digo que lo domine ni mucho menos, pero
+    si que es verdad que cuando vi el video, dije ¨Oh mira, no se ve tan complicado¨, y al menos, mientras veia el video, no me perdi en la
+    explicacion, llegue a pensar que iba a ser un tanto complicado entenderlo, pero a dia de hoy me quedo con el sabor de boca de que si entiendo
+    como funciona el comando/etiqueta grid, pero repito, no digo que lo domine o que lo pueda usar con los ojos cerrados, para nada.
+
+>Lo que se me dificulto mas
+    No estoy siendo soberbio, pero... miento, aqui ya iba a mentir y si es verdad que hay algo que se me complico, y es basicamente, crear el clon
+    de google, eso es lo que mas se me complico EN SU MOMENTO porque ahorita siento y presiento que ya lo puedo hacer solito  y sin ayuda, y 
+    basicamente es porque ya aprendimos o bueno aprendi otras cuantas cosas nuevas que igual y ayudan a crear el clon mas rapido, facil?...

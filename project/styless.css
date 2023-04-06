@@ -475,7 +475,7 @@ section{
     margin: 5px;
     display: block;
     /*border: solid 2px red;*/
-    position: fixed;
+    /*position: fixed;*/
     overflow-y: scroll;
 }
 
